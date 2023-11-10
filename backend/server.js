@@ -18,6 +18,7 @@ app.use('/users', usersRouter);
 const start = async () => {
     try {
       await connectDB(process.env.MONGODB_URI);
+      console.log("Connected to DB");
       app.listen(port, () => console.log(`Server is listening on port ${port}...`));
     } catch (error) {
       console.log(error);
