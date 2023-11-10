@@ -1,4 +1,4 @@
-#Fitness Tracker API using MERN
+# Fitness Tracker API using MERN
 
 **Have two Command Prompts -> One for Backend and one for Frontend
 Download the file from github**
